@@ -31,6 +31,10 @@ body {
     text-decoration: none;
 }
 
+.logo_unitesba{
+    height: 30px;
+}
+
 .navbar a {
     position: relative;
     font-size: 26px;
