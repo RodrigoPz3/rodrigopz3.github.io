@@ -129,6 +129,9 @@ body {
     .logo {
         font-size: 18px;
     }
+    .logo_unitesba{
+        height: 18px;
+    }
     .navbar a {
         font-size: 18px;
         margin-left: 50px;
