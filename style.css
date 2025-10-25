@@ -16,7 +16,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 30px;
+    padding: 25px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@ body {
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 26px;
     color: white;
     font-weight: 700;
     text-decoration: none;
@@ -33,11 +33,11 @@ body {
 
 .navbar a {
     position: relative;
-    font-size: 14px;
+    font-size: 26px;
     color: white;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 60px;
 }
 
 .navbar a::before {
@@ -55,7 +55,6 @@ body {
     width: 100%;
 }
 
-/* HERO / CUADRO PRINCIPAL */
 .cuadro_contenido {
     position: relative;
     height: 70vh;
@@ -68,7 +67,7 @@ body {
 
 .cuadro {
     width: 80%;
-    max-width: 700px;
+    max-width: 100%;
     padding: 25px 30px;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.8);
@@ -90,7 +89,6 @@ body {
     line-height: 1.4;
 }
 
-/* SECCIÓN DE INFORMACIÓN */
 .seccion_informacion {
     background-color: #1b1b1b;
     color: #c0c0c0;
@@ -119,17 +117,16 @@ body {
     line-height: 1.4;
 }
 
-/* RESPONSIVE */
 @media screen and (max-width: 768px) {
     .header {
-        padding: 8px 15px;
+        padding: 20px 20px;
     }
     .logo {
-        font-size: 16px;
+        font-size: 18px;
     }
     .navbar a {
-        font-size: 12px;
-        margin-left: 10px;
+        font-size: 18px;
+        margin-left: 50px;
     }
     .cuadro {
         padding: 20px 15px;
