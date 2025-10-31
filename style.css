@@ -162,16 +162,16 @@ body {
         font-size: clamp(18px, 5vw, 25px);
     }
     .contenido_cuadro {
-        font-size: clamp(12px, 3vw, 18px);
+        font-size: clamp(12px, 3vw, 20px);
     }
     .titulo_informacion {
-        font-size: clamp(16px, 4vw, 22px);
+        font-size: clamp(16px, 4vw, 25px);
     }
     .texto_informacion {
-        font-size: clamp(12px, 3vw, 18px);
+        font-size: clamp(12px, 3vw, 20px);
     }
     .parrafo1, .parrafo2, .parrafo3, .bloquePropuesta{
         width: 90%;
-        font-size: clamp(12px, 3vw, 18px);
+        font-size: clamp(12px, 3vw, 20px);
     }
 }
