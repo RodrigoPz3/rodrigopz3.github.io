@@ -170,4 +170,7 @@ body {
     .texto_informacion {
         font-size: clamp(12px, 3vw, 14px);
     }
+    .parrafo1, .parrafo2, .parrafo3, .bloquePropuesta{
+        width: 90%;
+    }
 }
