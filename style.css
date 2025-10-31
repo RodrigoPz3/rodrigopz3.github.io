@@ -121,6 +121,26 @@ body {
     line-height: 1.4;
 }
 
+.parrafo1, .parrafo2, .parrafo3, .bloquePropuesta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #282828;
+    border-radius: 15px;
+}
+
+.imagenInfo{
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.izquierda{
+    text-align: left;
+}
 @media screen and (max-width: 768px) {
     .header {
         padding: 20px 20px;
